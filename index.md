@@ -8,13 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="测试使用">
 <meta property="og:type" content="article">
-<meta property="og:title" content="index.md">
-<meta property="og:url" content="https://chahua99.github.io/2021/04/30/index-md/index.html">
+<meta property="og:title" content="index">
+<meta property="og:url" content="https://chahua99.github.io/2021/04/30/index/index.html">
 <meta property="og:site_name" content="FangFangFang">
 <meta property="og:description" content="测试使用">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-04-30T02:16:41.000Z">
-<meta property="article:modified_time" content="2021-04-30T02:16:41.064Z">
+<meta property="article:published_time" content="2021-04-30T02:19:57.000Z">
+<meta property="article:modified_time" content="2021-04-30T02:19:57.675Z">
 <meta property="article:author" content="Fang Fang">
 <meta property="article:tag" content="个人学习">
 <meta name="twitter:card" content="summary">
@@ -394,11 +394,11 @@
     <nav id="title-list-nav">
         
         <a  class="全部文章 "
-           href="/2021/04/30/index-md/"
+           href="/2021/04/30/index/"
            data-tag=""
            data-author="" >
-            <span class="post-title" title="index.md">index.md</span>
-            <span class="post-date" title="2021-04-30 10:16:41">2021/04/30</span>
+            <span class="post-title" title="index">index</span>
+            <span class="post-date" title="2021-04-30 10:19:57">2021/04/30</span>
         </a>
         
         <a  class="全部文章 资源 "
@@ -668,7 +668,7 @@
                 </span>
                 
                 <span class="bangumi-info-item bangumi-play">
-                    <span class="bangumi-info-label">总播放</span> <em>5108.6 万</em>
+                    <span class="bangumi-info-label">总播放</span> <em>5108.7 万</em>
                 </span>
                 <span class="bangumi-info-item bangumi-follow">
                     <span class="bangumi-info-label">追番人数</span> <em>234.1 万</em>
@@ -710,7 +710,7 @@
                 </span>
                 
                 <span class="bangumi-info-item bangumi-play">
-                    <span class="bangumi-info-label">总播放</span> <em>1036.0 万</em>
+                    <span class="bangumi-info-label">总播放</span> <em>1036.1 万</em>
                 </span>
                 <span class="bangumi-info-item bangumi-follow">
                     <span class="bangumi-info-label">追番人数</span> <em>818.6 万</em>
@@ -719,7 +719,7 @@
                     <span class="bangumi-info-label">硬币数</span> <em>2.3 万</em>
                 </span>
                 <span class="bangumi-info-item bangumi-danmaku">
-                    <span class="bangumi-info-label">弹幕总数</span> <em>5491</em>
+                    <span class="bangumi-info-label">弹幕总数</span> <em>5493</em>
                 </span>
                 <span class="bangumi-info-item bangumi-info-item-score">
                     <span class="bangumi-info-label">评分</span> <em>暂无评分</em>
@@ -886,7 +886,7 @@
                 </span>
                 
                 <span class="bangumi-info-item bangumi-play">
-                    <span class="bangumi-info-label">总播放</span> <em>361.1 万</em>
+                    <span class="bangumi-info-label">总播放</span> <em>361.2 万</em>
                 </span>
                 <span class="bangumi-info-item bangumi-follow">
                     <span class="bangumi-info-label">追番人数</span> <em>258.6 万</em>
@@ -931,7 +931,7 @@
                 </span>
                 
                 <span class="bangumi-info-item bangumi-play">
-                    <span class="bangumi-info-label">总播放</span> <em>6205.3 万</em>
+                    <span class="bangumi-info-label">总播放</span> <em>6205.4 万</em>
                 </span>
                 <span class="bangumi-info-item bangumi-follow">
                     <span class="bangumi-info-label">追番人数</span> <em>834.5 万</em>
@@ -1022,7 +1022,7 @@
                 </span>
                 
                 <span class="bangumi-info-item bangumi-play">
-                    <span class="bangumi-info-label">总播放</span> <em>6994.5 万</em>
+                    <span class="bangumi-info-label">总播放</span> <em>6994.6 万</em>
                 </span>
                 <span class="bangumi-info-item bangumi-follow">
                     <span class="bangumi-info-label">追番人数</span> <em>70.6 万</em>
@@ -2529,7 +2529,7 @@
                     <span class="bangumi-info-label">追番人数</span> <em>110.2 万</em>
                 </span>
                 <span class="bangumi-info-item bangumi-coin">
-                    <span class="bangumi-info-label">硬币数</span> <em>6.0 万</em>
+                    <span class="bangumi-info-label">硬币数</span> <em>6.1 万</em>
                 </span>
                 <span class="bangumi-info-item bangumi-danmaku">
                     <span class="bangumi-info-label">弹幕总数</span> <em>43.2 万</em>
@@ -2734,7 +2734,7 @@
                 </span>
                 
                 <span class="bangumi-info-item bangumi-play">
-                    <span class="bangumi-info-label">总播放</span> <em>7869.7 万</em>
+                    <span class="bangumi-info-label">总播放</span> <em>7869.8 万</em>
                 </span>
                 <span class="bangumi-info-item bangumi-follow">
                     <span class="bangumi-info-label">追番人数</span> <em>390.4 万</em>
@@ -3636,7 +3636,7 @@
                     <span class="bangumi-info-label">追番人数</span> <em>2.3 万</em>
                 </span>
                 <span class="bangumi-info-item bangumi-coin">
-                    <span class="bangumi-info-label">硬币数</span> <em>591</em>
+                    <span class="bangumi-info-label">硬币数</span> <em>592</em>
                 </span>
                 <span class="bangumi-info-item bangumi-danmaku">
                     <span class="bangumi-info-label">弹幕总数</span> <em>1.1 万</em>
@@ -4873,7 +4873,7 @@
                 </span>
                 
                 <span class="bangumi-info-item bangumi-play">
-                    <span class="bangumi-info-label">总播放</span> <em>6652.9 万</em>
+                    <span class="bangumi-info-label">总播放</span> <em>6653.0 万</em>
                 </span>
                 <span class="bangumi-info-item bangumi-follow">
                     <span class="bangumi-info-label">追番人数</span> <em>71.1 万</em>
@@ -5345,7 +5345,7 @@
                 </span>
                 
                 <span class="bangumi-info-item bangumi-play">
-                    <span class="bangumi-info-label">总播放</span> <em>6498.2 万</em>
+                    <span class="bangumi-info-label">总播放</span> <em>6498.3 万</em>
                 </span>
                 <span class="bangumi-info-item bangumi-follow">
                     <span class="bangumi-info-label">追番人数</span> <em>317.1 万</em>
@@ -5987,7 +5987,7 @@
                 </span>
                 
                 <span class="bangumi-info-item bangumi-play">
-                    <span class="bangumi-info-label">总播放</span> <em>1701.7 万</em>
+                    <span class="bangumi-info-label">总播放</span> <em>1701.8 万</em>
                 </span>
                 <span class="bangumi-info-item bangumi-follow">
                     <span class="bangumi-info-label">追番人数</span> <em>100.4 万</em>
@@ -7135,7 +7135,7 @@
                 </span>
                 
                 <span class="bangumi-info-item bangumi-play">
-                    <span class="bangumi-info-label">总播放</span> <em>4351.7 万</em>
+                    <span class="bangumi-info-label">总播放</span> <em>4351.8 万</em>
                 </span>
                 <span class="bangumi-info-item bangumi-follow">
                     <span class="bangumi-info-label">追番人数</span> <em>228.0 万</em>
@@ -7177,7 +7177,7 @@
                 </span>
                 
                 <span class="bangumi-info-item bangumi-play">
-                    <span class="bangumi-info-label">总播放</span> <em>3135.6 万</em>
+                    <span class="bangumi-info-label">总播放</span> <em>3135.7 万</em>
                 </span>
                 <span class="bangumi-info-item bangumi-follow">
                     <span class="bangumi-info-label">追番人数</span> <em>279.6 万</em>
@@ -7219,7 +7219,7 @@
                 </span>
                 
                 <span class="bangumi-info-item bangumi-play">
-                    <span class="bangumi-info-label">总播放</span> <em>4746.2 万</em>
+                    <span class="bangumi-info-label">总播放</span> <em>4746.3 万</em>
                 </span>
                 <span class="bangumi-info-item bangumi-follow">
                     <span class="bangumi-info-label">追番人数</span> <em>180.0 万</em>
@@ -7602,7 +7602,7 @@
                 </span>
                 
                 <span class="bangumi-info-item bangumi-play">
-                    <span class="bangumi-info-label">总播放</span> <em>8657.1 万</em>
+                    <span class="bangumi-info-label">总播放</span> <em>8657.2 万</em>
                 </span>
                 <span class="bangumi-info-item bangumi-follow">
                     <span class="bangumi-info-label">追番人数</span> <em>219.3 万</em>
