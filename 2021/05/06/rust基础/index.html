@@ -14,7 +14,7 @@
 <meta property="og:description" content="rust函数 fn &lt;函数名&gt; ( &lt;参数&gt; ) &lt;函数体&gt; Rust 中定义函数如果需要具备参数必须声明参数名称和类型：  12345678fn main() &amp;#123;    another_function(5, 6);&amp;#125;fn another_function(x: i32, y: i32) &amp;#123;    println!(&quot;x">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-05-06T14:21:49.000Z">
-<meta property="article:modified_time" content="2021-05-06T14:57:28.603Z">
+<meta property="article:modified_time" content="2021-05-06T23:30:27.028Z">
 <meta property="article:author" content="Fang Fang">
 <meta property="article:tag" content="计算机">
 <meta property="article:tag" content="程序语言">
@@ -608,12 +608,12 @@
     </div>
     <div class="article-meta">
         
-            发布时间 : <time class="date" title='最后更新: 2021-05-06 22:57:28'>2021-05-06 22:21</time>
+            发布时间 : <time class="date" title='最后更新: 2021-05-07 07:30:27'>2021-05-06 22:21</time>
         
     </div>
     <div class="article-meta">
         
-        <span>字数:374</span>
+        <span>字数:400</span>
         
         
         <span id="busuanzi_container_page_pv">
@@ -675,6 +675,10 @@
 <figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">fn</span> <span class="title">main</span></span>() &#123;</span><br><span class="line">    <span class="keyword">let</span> <span class="keyword">mut</span> number = <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">while</span> number != <span class="number">4</span> &#123;</span><br><span class="line">        <span class="built_in">println!</span>(<span class="string">&quot;&#123;&#125;&quot;</span>, number);</span><br><span class="line">        number += <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">println!</span>(<span class="string">&quot;EXIT&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> <span class="keyword">mut</span> i = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">while</span> i &lt; <span class="number">10</span> &#123;</span><br><span class="line">    <span class="comment">// 循环体</span></span><br><span class="line">    i += <span class="number">1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">fn</span> <span class="title">main</span></span>() &#123;</span><br><span class="line">    <span class="keyword">let</span> a = [<span class="number">10</span>, <span class="number">20</span>, <span class="number">30</span>, <span class="number">40</span>, <span class="number">50</span>];</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> a.iter() &#123;</span><br><span class="line">        <span class="built_in">println!</span>(<span class="string">&quot;值为 : &#123;&#125;&quot;</span>, i);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
 
 <blockquote>
 <p>在 C 语言中 for 循环使用三元语句控制循环，但是 Rust 中没有这种用法，需要用 while 循环来代替</p>
@@ -852,6 +856,14 @@
 
     /* 背景图样式 */
     
+    #post {
+        background: url(https://i.loli.net/2021/05/07/fThBZAgPed7vs1E.jpg);
+    }
+    
+    
+    #post .index {
+        background: url(https://i.loli.net/2021/05/07/1QxPHurfRoMCOtl.jpg);
+    }
     
 
 
@@ -859,6 +871,25 @@
     
 
     /*文章列表背景图*/
+    
+    .nav-right:before {
+        content: ' ';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.3;
+        background: url("https://i.loli.net/2021/05/07/pXvSeKPsC6ZVA5M.jpg");
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
     
 
     
