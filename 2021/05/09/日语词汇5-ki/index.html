@@ -2,9 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>rust基础 | FangFangFang</title>
-  <meta name="keywords" content=" 计算机 , 程序语言 , rust ">
-  <meta name="description" content="rust基础 | FangFangFang">
+  <title>日语词汇5-ki | FangFangFang</title>
+  <meta name="keywords" content=" 词汇 , 基础 ">
+  <meta name="description" content="日语词汇5-ki | FangFangFang">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="具体 ぐたい 具体案 ぐたいあん     くたくた くたくたに疲れる     くたびれる      下り くだり 下り線 くだりせん   下る くだる おなかが下る    口数 くちかず 家族の口数が多いので家計が苦しい かぞくのくちかずがおおいのでかけいがくるしい   口先 くちさき 口先がうまい くちさきがうまい   口ぶり くちぶり 何が知っているような口ぶり なにがしっているような">
 <meta property="og:type" content="article">
@@ -666,9 +666,9 @@
         </aside>
         <div id="post">
             <div class="pjax">
-                <article id="post-rust基础" class="article article-type-post" itemscope itemprop="blogPost">
+                <article id="post-日语词汇5-ki" class="article article-type-post" itemscope itemprop="blogPost">
     
-        <h1 class="article-title">rust基础</h1>
+        <h1 class="article-title">日语词汇5-ki</h1>
     
     <div class="article-meta">
         
@@ -678,7 +678,7 @@
             <i class="iconfont icon-category"></i>
             
             
-            <a  data-rel="学习">学习</a>
+            <a  data-rel="外语">外语</a>
             
         </span>
         
@@ -686,23 +686,21 @@
         <span class="tag">
             <i class="iconfont icon-tag"></i>
             
-            <a class="color4">计算机</a>
+            <a class="color3">词汇</a>
             
-            <a class="color5">程序语言</a>
-            
-            <a class="color5">rust</a>
+            <a class="color3">基础</a>
             
         </span>
         
     </div>
     <div class="article-meta">
         
-            发布时间 : <time class="date" title='最后更新: 2021-05-07 18:48:26'>2021-05-06 22:21</time>
+            发布时间 : <time class="date" title='最后更新: 2021-05-10 09:24:38'>2021-05-09 14:59</time>
         
     </div>
     <div class="article-meta">
         
-        <span>字数:1k</span>
+        <span>字数:238</span>
         
         
         <span id="busuanzi_container_page_pv">
@@ -732,7 +730,7 @@
     
     <div class="toc-ref">
     
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#rust%E5%87%BD%E6%95%B0"><span class="toc-text">rust函数</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5"><span class="toc-text">条件语句</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%BE%AA%E7%8E%AF"><span class="toc-text">循环</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%89%80%E6%9C%89%E6%9D%83"><span class="toc-text">所有权</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%AB%98%E6%95%88%E4%BD%BF%E7%94%A8%E5%86%85%E5%AD%98"><span class="toc-text">高效使用内存</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%98%E9%87%8F%E5%92%8C%E6%95%B0%E6%8D%AE%E4%BA%A4%E4%BA%92"><span class="toc-text">变量和数据交互</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A7%BB%E5%8A%A8I%E2%80%93%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E3%80%90%E4%BB%85%E5%9C%A8%E6%A0%88%E4%B8%AD"><span class="toc-text">移动I–基本数据类型【仅在栈中</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A7%BB%E5%8A%A8II%E2%80%93%E5%8F%91%E7%94%9F"><span class="toc-text">移动II–发生</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%8B%E9%9A%86"><span class="toc-text">克隆</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BC%95%E7%94%A8%E5%92%8C%E7%A7%9F%E5%80%9F-%E4%B8%80%E7%A7%8D%E6%8C%87%E9%92%88"><span class="toc-text">引用和租借_一种指针</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%A7%9F%E5%80%9F%E4%B8%80%E8%88%AC%E4%B8%8D%E8%83%BD%E4%BF%AE%E6%94%B9%E5%8E%9F%E5%80%BC%EF%BC%9B%E9%99%A4%E9%9D%9E%E5%8E%9F%E5%80%BC%E5%AE%9A%E4%B9%89%E4%B8%BA%E5%8F%AF%E5%8F%98%E5%8F%98%E9%87%8F"><span class="toc-text">租借一般不能修改原值；除非原值定义为可变变量</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%8D%E5%85%81%E8%AE%B8%E6%82%AC%E5%9E%82%E5%BC%95%E7%94%A8"><span class="toc-text">不允许悬垂引用</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%87%E7%89%87"><span class="toc-text">切片</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%88%87%E7%89%87"><span class="toc-text">字符串切片</span></a></li></ol></li></ol></li></ol>
+        
     
 <style>
     .left-col .switch-btn,
@@ -748,195 +746,254 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="rust函数"><a href="#rust函数" class="headerlink" title="rust函数"></a>rust函数</h1><blockquote>
-<p>fn &lt;函数名&gt; ( &lt;参数&gt; ) &lt;函数体&gt;</p>
-<p>Rust 中定义函数如果需要具备参数必须声明参数名称和类型：</p>
-</blockquote>
-<pre><code class="rust">fn main() &#123;
-    another_function(5, 6);
-&#125;
-
-fn another_function(x: i32, y: i32) &#123;
-    println!(&quot;x 的值为 : &#123;&#125;&quot;, x);
-    println!(&quot;y 的值为 : &#123;&#125;&quot;, y);
-&#125;
-</code></pre>
-<blockquote>
-<p>在参数声明之后用 <strong>-&gt;</strong> 来声明函数返回值的类型（不是 <strong>:</strong> ）</p>
-<p>如果没有明确声明函数返回值的类型，函数将被认为是”纯过程”，不允许产生返回值，return 后面不能有返回值表达式。这样做的目的是为了让公开的函数能够形成可见的公报</p>
-</blockquote>
-<pre><code class="rust">fn main() &#123;
-    fn five() -&gt; i32 &#123;
-        5
-    &#125;
-    println!(&quot;five() 的值为: &#123;&#125;&quot;, five());
-&#125;
-</code></pre>
-<h1 id="条件语句"><a href="#条件语句" class="headerlink" title="条件语句"></a>条件语句</h1><pre><code class="rust">fn main() &#123;
-    let number = 3;
-    if number &lt; 5 &#123;
-        println!(&quot;条件为 true&quot;);
-    &#125; else &#123;
-        println!(&quot;条件为 false&quot;);
-    &#125;
-&#125;
-</code></pre>
-<blockquote>
-<p>Rust 中的条件表达式必须是 bool 类型</p>
-</blockquote>
-<pre><code class="rust">fn main() &#123; 
-    let number = 3; 
-    if number &#123;   // 报错，expected `bool`, found integerrustc(E0308)
-        println!(&quot;Yes&quot;);
-    &#125; 
-&#125;  
-error
-</code></pre>
-<pre><code class="rust">fn main() &#123;
-    let a = 3;
-    let number = if a &gt; 0 &#123; 1 &#125; else &#123; -1 &#125;;
-    println!(&quot;number 为 &#123;&#125;&quot;, number);
-&#125;
-</code></pre>
-<h1 id="循环"><a href="#循环" class="headerlink" title="循环"></a>循环</h1><blockquote>
-<p>while</p>
-</blockquote>
-<pre><code class="rust">fn main() &#123;
-    let mut number = 1;
-    while number != 4 &#123;
-        println!(&quot;&#123;&#125;&quot;, number);
-        number += 1;
-    &#125;
-    println!(&quot;EXIT&quot;);
-&#125;
-</code></pre>
-<pre><code class="rust">let mut i = 0;
-while i &lt; 10 &#123;
-    // 循环体
-    i += 1;
-&#125;
-</code></pre>
-<pre><code class="rust">fn main() &#123;
-    let a = [10, 20, 30, 40, 50];
-    for i in a.iter() &#123;
-        println!(&quot;值为 : &#123;&#125;&quot;, i);
-    &#125;
-&#125;
-// for循环，遍历数组；a.iter() 代表 a 的迭代器（iterator）
-</code></pre>
-<blockquote>
-<p>在 C 语言中 for 循环使用三元语句控制循环，但是 Rust 中没有这种用法，需要用 while 循环来代替</p>
-</blockquote>
-<pre><code class="rust">fn main() &#123;
-    let s = [&#39;R&#39;, &#39;U&#39;, &#39;N&#39;, &#39;O&#39;, &#39;O&#39;, &#39;B&#39;];
-    let mut i = 0;
-    loop &#123;
-        let ch = s[i];
-        if ch == &#39;O&#39; &#123;
-            break;
-        &#125;
-        println!(&quot;\&#39;&#123;&#125;\&#39;&quot;, ch);
-        i += 1;
-    &#125;
-&#125;
-// loop循环;开头和结尾无法判断是否继续进行循环
-</code></pre>
-<pre><code class="rust">// break可以把值返还，类似return；
-fn main() &#123;
-    let s = [&#39;R&#39;, &#39;U&#39;, &#39;N&#39;, &#39;O&#39;, &#39;O&#39;, &#39;B&#39;];
-    let mut i = 0;
-    let location = loop &#123;
-        let ch = s[i];
-        if ch == &#39;O&#39; &#123;
-            break i;
-        &#125;
-        i += 1;
-    &#125;;
-    println!(&quot; \&#39;O\&#39; 的索引为 &#123;&#125;&quot;, location);
-&#125;
-</code></pre>
-<h1 id="所有权"><a href="#所有权" class="headerlink" title="所有权"></a>所有权</h1><h2 id="高效使用内存"><a href="#高效使用内存" class="headerlink" title="高效使用内存"></a>高效使用内存</h2><ul>
-<li>Rust 中的每个值都有一个变量，称为其所有者。</li>
-<li>一次只能有一个所有者。</li>
-<li>当所有者不在程序运行范围时，该值将被删除。</li>
-</ul>
-<h2 id="变量和数据交互"><a href="#变量和数据交互" class="headerlink" title="变量和数据交互"></a>变量和数据交互</h2><h3 id="移动I–基本数据类型【仅在栈中"><a href="#移动I–基本数据类型【仅在栈中" class="headerlink" title="移动I–基本数据类型【仅在栈中"></a>移动I–基本数据类型【仅在栈中</h3><pre><code class="rust">let x = 5;
-let y = x;
-</code></pre>
-<h3 id="移动II–发生"><a href="#移动II–发生" class="headerlink" title="移动II–发生"></a>移动II–发生</h3><pre><code class="rust">let s1 = String::from(&quot;hello&quot;);
-let s2 = s1; 
-println!(&quot;&#123;&#125;, world!&quot;, s1); // 错误！s1 已经失效rust
-</code></pre>
-<h3 id="克隆"><a href="#克隆" class="headerlink" title="克隆"></a>克隆</h3><pre><code class="rust">fn main() &#123;
-    let s1 = String::from(&quot;hello&quot;);
-    let s2 = s1.clone();
-    println!(&quot;s1 = &#123;&#125;, s2 = &#123;&#125;&quot;, s1, s2);
-&#125;
-</code></pre>
-<h3 id="引用和租借-一种指针"><a href="#引用和租借-一种指针" class="headerlink" title="引用和租借_一种指针"></a>引用和租借_一种指针</h3><pre><code class="rust">fn main() &#123;
-    let s1 = String::from(&quot;hello&quot;);
-    let s2 = &amp;s1;
-    println!(&quot;s1 is &#123;&#125;, s2 is &#123;&#125;&quot;, s1, s2);
-&#125;
-</code></pre>
-<pre><code class="rust">fn main() &#123;
-    let s1 = String::from(&quot;hello&quot;);
-
-    let len = calculate_length(&amp;s1);
-
-    println!(&quot;The length of &#39;&#123;&#125;&#39; is &#123;&#125;.&quot;, s1, len);
-&#125;
-
-fn calculate_length(s: &amp;String) -&gt; usize &#123;
-    s.len()
-&#125;
-</code></pre>
-<h4 id="租借一般不能修改原值；除非原值定义为可变变量"><a href="#租借一般不能修改原值；除非原值定义为可变变量" class="headerlink" title="租借一般不能修改原值；除非原值定义为可变变量"></a>租借一般不能修改原值；除非原值定义为可变变量</h4><pre><code class="rust">fn main() &#123;
-    let mut s1 = String::from(&quot;run&quot;);
-    // s1 是可变的
-
-    let s2 = &amp;mut s1;
-    // s2 是可变的引用
-
-    s2.push_str(&quot;oob&quot;);
-    println!(&quot;&#123;&#125;&quot;, s2);
-&#125;
-</code></pre>
-<blockquote>
-<p>但是可变引用不允许多重引用</p>
-</blockquote>
-<pre><code class="rust">let mut s = String::from(&quot;hello&quot;);
-
-let r1 = &amp;mut s;
-let r2 = &amp;mut s;
-
-println!(&quot;&#123;&#125;, &#123;&#125;&quot;, r1, r2);
-</code></pre>
-<h4 id="不允许悬垂引用"><a href="#不允许悬垂引用" class="headerlink" title="不允许悬垂引用"></a>不允许悬垂引用</h4><pre><code class="rust">fn main() &#123;
-    let reference_to_nothing = dangle();
-&#125;
-
-fn dangle() -&gt; &amp;String &#123;
-    let s = String::from(&quot;hello&quot;);
-
-    &amp;s
-&#125;
-</code></pre>
-<h2 id="切片"><a href="#切片" class="headerlink" title="切片"></a>切片</h2><h3 id="字符串切片"><a href="#字符串切片" class="headerlink" title="字符串切片"></a>字符串切片</h3><pre><code class="rust">fn main() &#123;
-    let s = String::from(&quot;broadcast&quot;);
-
-    let part1 = &amp;s[0..5];
-    let part2 = &amp;s[5..9];
-
-    println!(&quot;&#123;&#125;=&#123;&#125;+&#123;&#125;&quot;, s, part1, part2);
-&#125;
-</code></pre>
-<blockquote>
-<p>被切片引用的字符串禁止更改其值：</p>
-</blockquote>
-<blockquote>
-<p>str 和 String是不同的；前者为rust核心数据类型；后者为标准公共库，提供比str更方便的数据类型</p>
-</blockquote>
+        <div class="table-container">
+<table>
+<thead>
+<tr>
+<th>具体</th>
+<th>ぐたい</th>
+<th>具体案</th>
+<th>ぐたいあん</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>くたくた</td>
+<td>くたくたに疲れる</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>くたびれる</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>下り</td>
+<td>くだり</td>
+<td>下り線</td>
+<td>くだりせん</td>
+</tr>
+<tr>
+<td>下る</td>
+<td>くだる</td>
+<td>おなかが下る</td>
+<td></td>
+</tr>
+<tr>
+<td>口数</td>
+<td>くちかず</td>
+<td>家族の口数が多いので家計が苦しい</td>
+<td>かぞくのくちかずがおおいのでかけいがくるしい</td>
+</tr>
+<tr>
+<td>口先</td>
+<td>くちさき</td>
+<td>口先がうまい</td>
+<td>くちさきがうまい</td>
+</tr>
+<tr>
+<td>口ぶり</td>
+<td>くちぶり</td>
+<td>何が知っているような口ぶり</td>
+<td>なにがしっているようなくちぶり</td>
+</tr>
+<tr>
+<td>苦痛</td>
+<td>くつう</td>
+<td>苦痛を訴える</td>
+<td>くつうをうったえる</td>
+</tr>
+<tr>
+<td>区分</td>
+<td>くぶん</td>
+<td>土地を区分する</td>
+<td>とちをくぶんする</td>
+</tr>
+<tr>
+<td>ぐるぐる</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>くよくよ</td>
+<td>つまらないことにくよくよする</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>位</td>
+<td>くらい</td>
+<td>王の位</td>
+<td>おうのくらい</td>
+</tr>
+<tr>
+<td>位する</td>
+<td>くらいする</td>
+<td>クリーナー</td>
+<td>cleaner</td>
+</tr>
+<tr>
+<td>狂う</td>
+<td>くるう</td>
+<td>気が狂う</td>
+<td>きがくるう</td>
+</tr>
+<tr>
+<td>くるくる</td>
+<td>くるくるとよく働く</td>
+<td>ぐるぐる</td>
+<td>ぐるぐる回る</td>
+</tr>
+<tr>
+<td>苦しめる</td>
+<td>くるしめいる</td>
+<td>人を苦しめる</td>
+<td>ひとをくるしめる</td>
+</tr>
+<tr>
+<td>暮</td>
+<td>くれ</td>
+<td>春の暮れ</td>
+<td>はるのくれ</td>
+</tr>
+<tr>
+<td>玄人</td>
+<td>くろうと</td>
+<td>素人</td>
+<td>しろうと</td>
+</tr>
+<tr>
+<td>黒字</td>
+<td>くろじ</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>加わる</td>
+<td>くわわる</td>
+<td>味方に加わる</td>
+<td>みかたに加わる</td>
+</tr>
+<tr>
+<td>訓読み</td>
+<td>くんよみ</td>
+<td>音読み</td>
+<td>おんよみ</td>
+</tr>
+<tr>
+<td>ケア</td>
+<td></td>
+<td>計</td>
+<td>計五十人</td>
+</tr>
+<tr>
+<td>軽音楽</td>
+<td>けいおんがく</td>
+<td>敬意</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>契機</td>
+<td>けいき</td>
+<td>景気</td>
+<td>けいき</td>
+</tr>
+<tr>
+<td>警告</td>
+<td>けいこく</td>
+<td>警告を発する</td>
+<td>けいこくをはっする</td>
+</tr>
+<tr>
+<td>掲載</td>
+<td>けいさい</td>
+<td>軽視</td>
+<td>けいし</td>
+</tr>
+<tr>
+<td>刑事</td>
+<td>けいじ</td>
+<td>軽食</td>
+<td>けいしょく</td>
+</tr>
+<tr>
+<td>継続</td>
+<td>けいぞく</td>
+<td>研究を継続する</td>
+<td>けんきゅうをけいぞくする</td>
+</tr>
+<tr>
+<td>携帯</td>
+<td>けいたい</td>
+<td>系統</td>
+<td>けいとう</td>
+</tr>
+<tr>
+<td>芸能</td>
+<td>げいのう</td>
+<td>芸能界</td>
+<td>げいのうかい</td>
+</tr>
+<tr>
+<td>競馬</td>
+<td>けいば</td>
+<td>警備</td>
+<td>けいび</td>
+</tr>
+<tr>
+<td>形容詞</td>
+<td>けいようし</td>
+<td>劇</td>
+<td>げき</td>
+</tr>
+<tr>
+<td>激減</td>
+<td>げきげん</td>
+<td>激増</td>
+<td>げきぞう</td>
+</tr>
+<tr>
+<td>激安</td>
+<td>げきやす</td>
+<td>血圧</td>
+<td>けつあつ</td>
+</tr>
+<tr>
+<td>決意</td>
+<td>けつい</td>
+<td>決意を固める</td>
+<td>けついをかためる</td>
+</tr>
+<tr>
+<td>決行</td>
+<td>けっこう</td>
+<td>雨天決行</td>
+<td>うてんけっこう</td>
+</tr>
+<tr>
+<td>傑作</td>
+<td>けっさく</td>
+<td>決勝</td>
+<td>けっしょう</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><img src="https://i.loli.net/2021/05/10/hIr7kYSDy1UacVF.jpg" alt="二十四档无级变速！.jpg"></p>
 
       
        <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 1097706323@qq.com </span>
