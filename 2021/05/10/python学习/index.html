@@ -2,9 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>20210502-c++类的学习 | FangFangFang</title>
-  <meta name="keywords" content=" C++ , 类 ">
-  <meta name="description" content="20210502-c++类的学习 | FangFangFang">
+  <title>python学习 | FangFangFang</title>
+  <meta name="keywords" content=" python , 基础语法 ">
+  <meta name="description" content="python学习 | FangFangFang">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="yield和yield from yield函数类似生成器，可以返回上次迭代的位置，主要内容能够节省内存空间； yield from 可以从可迭代对象中继续返回值  from collections import Iterable  def flatten(items, ignore_types&#x3D;(str, bytes)):     for x in items:         if isins">
 <meta property="og:type" content="article">
@@ -670,9 +670,9 @@
         </aside>
         <div id="post">
             <div class="pjax">
-                <article id="post-20210502-c-类的学习" class="article article-type-post" itemscope itemprop="blogPost">
+                <article id="post-python学习" class="article article-type-post" itemscope itemprop="blogPost">
     
-        <h1 class="article-title">20210502-c++类的学习</h1>
+        <h1 class="article-title">python学习</h1>
     
     <div class="article-meta">
         
@@ -690,21 +690,21 @@
         <span class="tag">
             <i class="iconfont icon-tag"></i>
             
-            <a class="color4">C++</a>
+            <a class="color2">python</a>
             
-            <a class="color2">类</a>
+            <a class="color5">基础语法</a>
             
         </span>
         
     </div>
     <div class="article-meta">
         
-            发布时间 : <time class="date" title='最后更新: 2021-05-03 10:14:27'>2021-05-02 21:58</time>
+            发布时间 : <time class="date" title='最后更新: 2021-05-10 19:21:01'>2021-05-10 19:03</time>
         
     </div>
     <div class="article-meta">
         
-        <span>字数:370</span>
+        <span>字数:125</span>
         
         
         <span id="busuanzi_container_page_pv">
@@ -734,7 +734,7 @@
     
     <div class="toc-ref">
     
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%B1%BB-amp-%E5%AF%B9%E8%B1%A1"><span class="toc-text">类&amp;对象</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#static%E4%B8%8Econsole"><span class="toc-text">static与console</span></a></li></ol></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#yield%E5%92%8Cyield-from"><span class="toc-text">yield和yield from</span></a></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -750,40 +750,28 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="类-amp-对象"><a href="#类-amp-对象" class="headerlink" title="类&amp;对象"></a>类&amp;对象</h1><p><img src="/2021/05/02/20210502-c-%E7%B1%BB%E7%9A%84%E5%AD%A6%E4%B9%A0/1.png" alt="1"></p>
-<pre><code>class Box
-&#123;
-   public:
-      double length;   // 盒子的长度
-      double breadth;  // 盒子的宽度
-      double height;   // 盒子的高度
-&#125;;
+        <h1 id="yield和yield-from"><a href="#yield和yield-from" class="headerlink" title="yield和yield from"></a>yield和yield from</h1><blockquote>
+<p>yield函数类似生成器，可以返回上次迭代的位置，主要内容能够节省内存空间；</p>
+<p>yield from 可以从可迭代对象中继续返回值</p>
+</blockquote>
+<pre><code class="lang-python">from collections import Iterable
+
+def flatten(items, ignore_types=(str, bytes)):
+    for x in items:
+        if isinstance(x, Iterable) and not isinstance(x, ignore_types):
+            yield from flatten(x)
+        else:
+            yield x
+
+items = [1, 2, [3, 4, [5, 6], 7], 8]
+for x in flatten(items):
+    print(x)
+# output：1 2 3 4 5 6 7 8
+
+items = [&#39;Dave&#39;, &#39;Paula&#39;, [&#39;Thomas&#39;, &#39;Lewis&#39;]]
+for x in flatten(items):
+    print(x)
 </code></pre>
-<blockquote>
-<p>关键字 <strong>public</strong> 确定了类成员的访问属性。在类对象作用域内，公共成员在类的外部是可访问的。也可以指定类的成员为 <strong>private</strong> 或 <strong>protected</strong>。</p>
-</blockquote>
-<h2 id="static与console"><a href="#static与console" class="headerlink" title="static与console"></a>static与console</h2><blockquote>
-<p>首先 static 的最主要功能是隐藏，其次因为 static 变量存放在静态存储区—[存储在静态数据区的变量会在程序刚开始运行时就完成初始化，也是唯一的一次初始化]—，所以它具备持久性和默认值0。</p>
-</blockquote>
-<blockquote>
-<p>Console 类主要用于控制台应用程序的输入和输岀操作</p>
-<p>Console.Write(格式化字符串, 输出项, 输出项2);</p>
-</blockquote>
-<pre><code>class Program
-&#123;
-    static void Main(string[] args)
-    
-</code></pre>
-<blockquote>
-<ul>
-<li>static:是将main方法声明为静态的。 </li>
-<li>void:说明main方法不会返回任何内容。 </li>
-<li>String[]args：这是用来接收命令行传入的参数，String[]是声明args是可以存储字符串数组。</li>
-<li>运行时会弹出命令窗口，你可以在那里输入一些参数，string[] args 指的就是你在命令窗口输入的参数。 也就是命令行参数。</li>
-<li>args是用来处理命令行参数的。命令行参数，就是你运行这个程序的时候给它传的参数。它是可选项，不是必须的。</li>
-<li>[C#中static void Main(string<a target="_blank" rel="noopener" href="https://www.cnblogs.com/zk-zhou/p/6408279.html">] args)的含义 - Z&amp;K - 博客园 (cnblogs.com)</a></li>
-</ul>
-</blockquote>
 
       
        <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 1097706323@qq.com </span>

@@ -4,6 +4,60 @@
   
     
     <entry>
+      <title>python学习</title>
+      <link href="2021/05/10/python%E5%AD%A6%E4%B9%A0/"/>
+      <url>2021/05/10/python%E5%AD%A6%E4%B9%A0/</url>
+      
+        <content type="html"><![CDATA[<h1 id="yield和yield-from"><a href="#yield和yield-from" class="headerlink" title="yield和yield from"></a>yield和yield from</h1><blockquote><p>yield函数类似生成器，可以返回上次迭代的位置，主要内容能够节省内存空间；</p><p>yield from 可以从可迭代对象中继续返回值</p></blockquote><pre><code class="lang-python">from collections import Iterabledef flatten(items, ignore_types=(str, bytes)):    for x in items:        if isinstance(x, Iterable) and not isinstance(x, ignore_types):            yield from flatten(x)        else:            yield xitems = [1, 2, [3, 4, [5, 6], 7], 8]for x in flatten(items):    print(x)# output：1 2 3 4 5 6 7 8items = [&#39;Dave&#39;, &#39;Paula&#39;, [&#39;Thomas&#39;, &#39;Lewis&#39;]]for x in flatten(items):    print(x)</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+            <tag> 基础语法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>精彩世界</title>
+      <link href="2021/05/10/%E7%B2%BE%E5%BD%A9%E4%B8%96%E7%95%8C/"/>
+      <url>2021/05/10/%E7%B2%BE%E5%BD%A9%E4%B8%96%E7%95%8C/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 资源 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 网站 </tag>
+            
+            <tag> 分享 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>日语词汇5-ki</title>
       <link href="2021/05/09/%E6%97%A5%E8%AF%AD%E8%AF%8D%E6%B1%875-ki/"/>
       <url>2021/05/09/%E6%97%A5%E8%AF%AD%E8%AF%8D%E6%B1%875-ki/</url>
@@ -35,7 +89,7 @@
       <link href="2021/05/09/%E6%BC%AB%E7%94%BB%E7%94%B5%E5%BD%B1%E6%8E%A8%E8%8D%90/"/>
       <url>2021/05/09/%E6%BC%AB%E7%94%BB%E7%94%B5%E5%BD%B1%E6%8E%A8%E8%8D%90/</url>
       
-        <content type="html"><![CDATA[<h1 id="漫画"><a href="#漫画" class="headerlink" title="漫画"></a>漫画</h1><div class="table-container"><table><thead><tr><th>名称</th><th>作者</th><th>链接</th><th>日期</th></tr></thead><tbody><tr><td>伏魔殿</td><td></td><td></td><td></td></tr><tr><td>妖精森林的小不点</td><td></td><td></td><td></td></tr><tr><td>摇曳露营</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table></div>]]></content>
+        <content type="html"><![CDATA[<h1 id="漫画"><a href="#漫画" class="headerlink" title="漫画"></a>漫画</h1><div class="table-container"><table><thead><tr><th>名称</th><th>[Mox.moe [Kindle漫畫\</th><th>Kobo漫畫\</th><th>epub漫畫] <a href="https://vol.moe/">vol.moe]</a></th><th></th><th></th></tr></thead><tbody><tr><td>伏魔殿</td><td>葬送的芙莉莲</td><td></td><td></td></tr><tr><td>妖精森林的小不点</td><td>幽香缭乱</td><td></td><td></td></tr><tr><td>摇曳露营</td><td></td><td></td><td></td></tr><tr><td>行尸走肉</td><td></td><td></td><td></td></tr><tr><td>A频道</td><td></td><td></td><td></td></tr><tr><td>天使降临到我身边</td><td></td><td></td><td></td></tr><tr><td>守望者</td><td></td><td></td><td></td></tr><tr><td>加奈日记</td><td></td><td></td><td></td></tr><tr><td>快乐历史</td><td></td><td></td><td></td></tr><tr><td>银魂</td><td></td><td></td><td></td></tr><tr><td>伊藤润二</td><td></td><td></td><td></td></tr><tr><td>蓬莱中国怪奇幻想选</td><td></td><td></td><td></td></tr><tr><td>极道超女</td><td></td><td></td><td></td></tr><tr><td>妖怪合租</td><td></td><td></td><td></td></tr><tr><td>异世界食堂</td><td></td><td></td><td></td></tr><tr><td>游戏王</td><td></td><td></td><td></td></tr><tr><td>因为太寂寞了而叫了百合风俗小姐的报告</td><td></td><td></td><td></td></tr><tr><td>乌龙院</td><td></td><td></td><td></td></tr><tr><td>小林家的龙女仆</td><td></td><td></td></tr></tbody></table></div><h1 id="小说"><a href="#小说" class="headerlink" title="小说"></a>小说</h1><div class="table-container"><table><thead><tr><th>名称</th><th></th><th></th><th></th></tr></thead><tbody><tr><td>冰与火之歌</td><td></td><td></td><td></td></tr><tr><td>灵山</td><td></td><td></td><td></td></tr><tr><td>银河铁道之夜</td><td></td><td></td><td></td></tr><tr><td>邪恶之路</td><td></td><td></td><td></td></tr><tr><td>童年的消逝</td><td></td><td></td><td></td></tr><tr><td>扶摇皇后</td><td></td><td></td><td></td></tr><tr><td>人鼠之间</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table></div><h1 id="电影"><a href="#电影" class="headerlink" title="电影"></a>电影</h1><div class="table-container"><table><thead><tr><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table></div>]]></content>
       
       
       <categories>
@@ -311,31 +365,6 @@
     
     
     <entry>
-      <title>日漫推荐</title>
-      <link href="2021/04/29/%E6%97%A5%E6%BC%AB%E6%8E%A8%E8%8D%90/"/>
-      <url>2021/04/29/%E6%97%A5%E6%BC%AB%E6%8E%A8%E8%8D%90/</url>
-      
-        <content type="html"><![CDATA[<h1 id="葬送的芙莉莲—–葬送のフリーレン"><a href="#葬送的芙莉莲—–葬送のフリーレン" class="headerlink" title="葬送的芙莉莲—–葬送のフリーレン"></a>葬送的芙莉莲—–葬送のフリーレン</h1>]]></content>
-      
-      
-      <categories>
-          
-          <category> 漫画 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 日漫 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>类型学学习</title>
       <link href="2021/04/29/%E7%B1%BB%E5%9E%8B%E5%AD%A6%E5%AD%A6%E4%B9%A0/"/>
       <url>2021/04/29/%E7%B1%BB%E5%9E%8B%E5%AD%A6%E5%AD%A6%E4%B9%A0/</url>
@@ -418,10 +447,10 @@
     
     <entry>
       <title>日语词汇-1</title>
-      <link href="2021/04/24/%E6%97%A5%E8%AF%AD%E8%AF%8D%E6%B1%87-1/"/>
-      <url>2021/04/24/%E6%97%A5%E8%AF%AD%E8%AF%8D%E6%B1%87-1/</url>
+      <link href="2021/04/24/%E6%97%A5%E8%AF%AD%E8%AF%8D%E6%B1%871/"/>
+      <url>2021/04/24/%E6%97%A5%E8%AF%AD%E8%AF%8D%E6%B1%871/</url>
       
-        <content type="html"><![CDATA[<table><thead><tr><th>可</th><th>か</th><th>未経験可</th><th>みけいけんか</th></tr></thead><tbody><tr><td>～下</td><td>か</td><td>支配下</td><td>しはいか；</td></tr><tr><td>～課</td><td>か</td><td>国歌</td><td>こっか</td></tr><tr><td>カー</td><td>car</td><td>車</td><td>くるま</td></tr><tr><td>ガール</td><td>girl</td><td>ガールフレンド</td><td></td></tr><tr><td>～海</td><td>かい</td><td>日本海</td><td>にほんかい</td></tr><tr><td>～界</td><td>かい</td><td>生物界</td><td>せいぶつかい</td></tr><tr><td>～街</td><td>がい</td><td>商店街</td><td>しょうてんがい</td></tr><tr><td>害</td><td>がい</td><td>タバコは健康に害がある</td><td>タバコはけんこにがいがある</td></tr><tr><td>～外</td><td>がい</td><td>問題外</td><td>もんだいがい</td></tr><tr><td>～外</td><td>がい</td><td>外国</td><td>がいこく</td></tr><tr><td>買い入れる</td><td>かいいれる</td><td>原料を買い入れる</td><td>げんりょうをかいいれる</td></tr><tr><td>開花</td><td>かいか</td><td>桜の開花を待つ</td><td>さくらにかいかをまつ</td></tr><tr><td>開会</td><td>かいかい</td><td>朝9時に開会する</td><td>あさ９じにかいかいする</td></tr><tr><td>開館</td><td>かいかん</td><td>閉館</td><td>へいかｎ</td></tr><tr><td>会合</td><td>かいごう</td><td>会合を開く</td><td>かいごうをひらく</td></tr><tr><td>外交</td><td>がいこう</td><td></td><td></td></tr><tr><td>解散</td><td>かいさん</td><td>組織が解散する</td><td>そしきがかいさんする</td></tr><tr><td>解釈</td><td>かいしゃく</td><td>正しく解釈する</td><td>ただしくかいしゃくする</td></tr><tr><td>外相</td><td>がいしょう</td><td>外相会議</td><td>がいしょうかいぎ</td></tr><tr><td>海水浴</td><td>かいすいよく</td><td>海水浴場</td><td>かいすいよくじょう</td></tr><tr><td>回数</td><td>かいすう</td><td>回数を重ねる</td><td>かいすをかさねる</td></tr><tr><td>改正</td><td>かいせい</td><td>法改正</td><td>ほうかいせい</td></tr><tr><td>快晴</td><td>かいせい</td><td>快晴に恵まれる</td><td>かいせいにめぐまれる</td></tr><tr><td>改造</td><td>かいぞう</td><td>台所の改造</td><td>だいどころのかいぞう</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>会談</td><td>かいだん</td><td>三者会談</td><td>さんしゃかいだん</td></tr><tr><td>快適</td><td>かいてき</td><td>快適な生活</td><td>かいてきなせいかつ</td></tr><tr><td>回転</td><td>かいてん</td><td>車輪が速く回転する</td><td>しゃりんがはやくかいてんする</td></tr><tr><td>回答</td><td>かいとう</td><td>適切な回答</td><td>てきせつなかいとう</td></tr><tr><td>海面</td><td>かいめん</td><td>海面下</td><td>かいめんか</td></tr><tr><td>海洋</td><td>かいよう</td><td>海洋汚染</td><td>かいようおせん</td></tr><tr><td>外来</td><td>がいらい</td><td>外来語</td><td>がいらいご</td></tr><tr><td>回覧</td><td>かいらん</td><td>回覧板</td><td>かいらんばん</td></tr><tr><td>概論</td><td>がいろん</td><td>文学概論</td><td>ぶんがくがいろん</td></tr><tr><td>却って</td><td>かえって</td><td>病状はかえって悪化した</td><td>びょうじょうはかえってあっかした</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>返る</td><td>かえる</td><td>初心に返る</td><td>しょしんにかえる</td></tr><tr><td>蛙</td><td>かえる</td><td>蛙の子は蛙</td><td>かえるのこはかえる</td></tr><tr><td>顔付き</td><td>かおつき</td><td>顔つきが厳しい</td><td>かおつきがきびしい</td></tr><tr><td>画家</td><td>がか</td><td>自画自賛</td><td>じがじさん</td></tr><tr><td>課外</td><td>かがい</td><td>課外活動</td><td>かがいかつどう</td></tr><tr><td>抱える</td><td>かかえる</td><td>頭を抱える</td><td>あたまをかかえる</td></tr><tr><td>係わる</td><td>かかわる</td><td>命にかかわる問題</td><td>いのちわかかわるもんだい</td></tr><tr><td>柿</td><td>かき</td><td>柿の種</td><td>かきのたね</td></tr><tr><td>書き言葉</td><td>かきことば</td><td>話し言葉</td><td>はなしことば</td></tr><tr><td>書き込む</td><td>かきこむ</td><td>余白に書き込む</td><td>よはくにかきこむ</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>書き留める</td><td>かきとめる</td><td>ノートに書き留める</td><td>ノートにかきとめる</td></tr><tr><td>書き取り</td><td>かきとり</td><td>書き取りの練習</td><td>かきとりのれんしゅう</td></tr><tr><td>限りない</td><td>かぎりない</td><td>限りない感謝</td><td>かぎりないかんしゃ</td></tr><tr><td>架空</td><td>かくう</td><td>架空の人物</td><td>かくうのじんぶつ</td></tr><tr><td>学業</td><td>がくぎょう</td><td>学業に励む</td><td>がくぎょうにはげむ</td></tr><tr><td>覚悟</td><td>かくご</td><td>覚悟を決める</td><td>かくごをきめる</td></tr><tr><td>各自</td><td>かくじ</td><td>各々</td><td>おのおの</td></tr><tr><td>確実</td><td>かくじつ</td><td>確実の証拠</td><td>かくじつのしょうこ</td></tr><tr><td>拡充</td><td>かくじゅう</td><td>設備を拡充</td><td>せつびをかくじゅうする</td></tr><tr><td>確信</td><td>かくしん</td><td>無罪を確信する</td><td>むざいをかくしんする</td></tr><tr><td>学長</td><td>がくちょう</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>]]></content>
+        <content type="html"><![CDATA[<div class="table-container"><table><thead><tr><th>可</th><th>か</th><th>未経験可</th><th>みけいけんか</th></tr></thead><tbody><tr><td>～下</td><td>か</td><td>支配下</td><td>しはいか；</td></tr><tr><td>～課</td><td>か</td><td>国歌</td><td>こっか</td></tr><tr><td>カー</td><td>car</td><td>車</td><td>くるま</td></tr><tr><td>ガール</td><td>girl</td><td>ガールフレンド</td><td></td></tr><tr><td>～海</td><td>かい</td><td>日本海</td><td>にほんかい</td></tr><tr><td>～界</td><td>かい</td><td>生物界</td><td>せいぶつかい</td></tr><tr><td>～街</td><td>がい</td><td>商店街</td><td>しょうてんがい</td></tr><tr><td>害</td><td>がい</td><td>タバコは健康に害がある</td><td>タバコはけんこにがいがある</td></tr><tr><td>～外</td><td>がい</td><td>問題外</td><td>もんだいがい</td></tr><tr><td>～外</td><td>がい</td><td>外国</td><td>がいこく</td></tr><tr><td>買い入れる</td><td>かいいれる</td><td>原料を買い入れる</td><td>げんりょうをかいいれる</td></tr><tr><td>開花</td><td>かいか</td><td>桜の開花を待つ</td><td>さくらにかいかをまつ</td></tr><tr><td>開会</td><td>かいかい</td><td>朝9時に開会する</td><td>あさ９じにかいかいする</td></tr><tr><td>開館</td><td>かいかん</td><td>閉館</td><td>へいかｎ</td></tr><tr><td>会合</td><td>かいごう</td><td>会合を開く</td><td>かいごうをひらく</td></tr><tr><td>外交</td><td>がいこう</td><td></td><td></td></tr><tr><td>解散</td><td>かいさん</td><td>組織が解散する</td><td>そしきがかいさんする</td></tr><tr><td>解釈</td><td>かいしゃく</td><td>正しく解釈する</td><td>ただしくかいしゃくする</td></tr><tr><td>外相</td><td>がいしょう</td><td>外相会議</td><td>がいしょうかいぎ</td></tr><tr><td>海水浴</td><td>かいすいよく</td><td>海水浴場</td><td>かいすいよくじょう</td></tr><tr><td>回数</td><td>かいすう</td><td>回数を重ねる</td><td>かいすをかさねる</td></tr><tr><td>改正</td><td>かいせい</td><td>法改正</td><td>ほうかいせい</td></tr><tr><td>快晴</td><td>かいせい</td><td>快晴に恵まれる</td><td>かいせいにめぐまれる</td></tr><tr><td>改造</td><td>かいぞう</td><td>台所の改造</td><td>だいどころのかいぞう</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>会談</td><td>かいだん</td><td>三者会談</td><td>さんしゃかいだん</td></tr><tr><td>快適</td><td>かいてき</td><td>快適な生活</td><td>かいてきなせいかつ</td></tr><tr><td>回転</td><td>かいてん</td><td>車輪が速く回転する</td><td>しゃりんがはやくかいてんする</td></tr><tr><td>回答</td><td>かいとう</td><td>適切な回答</td><td>てきせつなかいとう</td></tr><tr><td>海面</td><td>かいめん</td><td>海面下</td><td>かいめんか</td></tr><tr><td>海洋</td><td>かいよう</td><td>海洋汚染</td><td>かいようおせん</td></tr><tr><td>外来</td><td>がいらい</td><td>外来語</td><td>がいらいご</td></tr><tr><td>回覧</td><td>かいらん</td><td>回覧板</td><td>かいらんばん</td></tr><tr><td>概論</td><td>がいろん</td><td>文学概論</td><td>ぶんがくがいろん</td></tr><tr><td>却って</td><td>かえって</td><td>病状はかえって悪化した</td><td>びょうじょうはかえってあっかした</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>返る</td><td>かえる</td><td>初心に返る</td><td>しょしんにかえる</td></tr><tr><td>蛙</td><td>かえる</td><td>蛙の子は蛙</td><td>かえるのこはかえる</td></tr><tr><td>顔付き</td><td>かおつき</td><td>顔つきが厳しい</td><td>かおつきがきびしい</td></tr><tr><td>画家</td><td>がか</td><td>自画自賛</td><td>じがじさん</td></tr><tr><td>課外</td><td>かがい</td><td>課外活動</td><td>かがいかつどう</td></tr><tr><td>抱える</td><td>かかえる</td><td>頭を抱える</td><td>あたまをかかえる</td></tr><tr><td>係わる</td><td>かかわる</td><td>命にかかわる問題</td><td>いのちわかかわるもんだい</td></tr><tr><td>柿</td><td>かき</td><td>柿の種</td><td>かきのたね</td></tr><tr><td>書き言葉</td><td>かきことば</td><td>話し言葉</td><td>はなしことば</td></tr><tr><td>書き込む</td><td>かきこむ</td><td>余白に書き込む</td><td>よはくにかきこむ</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>書き留める</td><td>かきとめる</td><td>ノートに書き留める</td><td>ノートにかきとめる</td></tr><tr><td>書き取り</td><td>かきとり</td><td>書き取りの練習</td><td>かきとりのれんしゅう</td></tr><tr><td>限りない</td><td>かぎりない</td><td>限りない感謝</td><td>かぎりないかんしゃ</td></tr><tr><td>架空</td><td>かくう</td><td>架空の人物</td><td>かくうのじんぶつ</td></tr><tr><td>学業</td><td>がくぎょう</td><td>学業に励む</td><td>がくぎょうにはげむ</td></tr><tr><td>覚悟</td><td>かくご</td><td>覚悟を決める</td><td>かくごをきめる</td></tr><tr><td>各自</td><td>かくじ</td><td>各々</td><td>おのおの</td></tr><tr><td>確実</td><td>かくじつ</td><td>確実の証拠</td><td>かくじつのしょうこ</td></tr><tr><td>拡充</td><td>かくじゅう</td><td>設備を拡充</td><td>せつびをかくじゅうする</td></tr><tr><td>確信</td><td>かくしん</td><td>無罪を確信する</td><td>むざいをかくしんする</td></tr><tr><td>学長</td><td>がくちょう</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table></div>]]></content>
       
       
       <categories>
