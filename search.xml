@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>python-gui</title>
+      <link href="2021/05/15/python-gui/"/>
+      <url>2021/05/15/python-gui/</url>
+      
+        <content type="html"><![CDATA[<h1 id="创建GUI界面"><a href="#创建GUI界面" class="headerlink" title="创建GUI界面"></a>创建GUI界面</h1><pre><code class="lang-python">from tkinter import *window = Tk()window.title(&quot;Welcome to LikeGeeks app&quot;)window.mainloop() #If you forget to call the mainloop function, nothing will appear to the user.window.geometry(&#39;350x200&#39;) #</code></pre><h1 id="创建标签"><a href="#创建标签" class="headerlink" title="创建标签"></a>创建标签</h1><pre><code class="lang-python">lbl = Label(window, text=&quot;Hello&quot;) # label classlbl.grid(column=0, row=0) # positionlbl = Label(window, text=&quot;Hello&quot;, font=(&quot;Arial Bold&quot;, 50)) # font style/font size</code></pre><h1 id="添加按钮"><a href="#添加按钮" class="headerlink" title="添加按钮"></a>添加按钮</h1><pre><code class="lang-python">btn = Button(window, text=&quot;Click Me&quot;)btn.grid(column=1, row=0) # 和label一样</code></pre><pre><code class="lang-python"># summaryfrom tkinter import *window = Tk()window.title(&quot;Welcome to LikeGeeks app&quot;)window.geometry(&#39;350x200&#39;)lbl = Label(window, text=&quot;Hello&quot;)lbl.grid(column=0, row=0)btn = Button(window, text=&quot;Click Me&quot;)btn.grid(column=1, row=0)btn = Button(window, text=&quot;Click Me&quot;, bg=&quot;orange&quot;, fg=&quot;red&quot;)# label,button的背景颜色和字体颜色都可以修改window.mainloop()</code></pre><h1 id="添加按钮事件"><a href="#添加按钮事件" class="headerlink" title="添加按钮事件"></a>添加按钮事件</h1><pre><code class="lang-python"># 定义时间def clicked():    lbl.configure(text=&quot;Button was clicked !!&quot;)# 和按钮绑定btn = Button(window, text=&quot;Click Me&quot;, command=clicked)</code></pre><h1 id="获取输入"><a href="#获取输入" class="headerlink" title="获取输入"></a>获取输入</h1><pre><code class="lang-python"># 小部件：Tkinter Entry class (Tkinter textbox)txt = Entry(window,width=10)# 需要和get()方法配合使用def clicked():    res = &quot;Welcome to &quot; + txt.get()    lbl.configure(text= res)# 设置自动指向Entry——.focus()txt.focus()# 设置Entry——不使用txt = Entry(window,width=10, state=&#39;disabled&#39;)</code></pre><h1 id="设置列表"><a href="#设置列表" class="headerlink" title="设置列表"></a>设置列表</h1><pre><code class="lang-python">from tkinter.ttk import *combo = Combobox(window)combo[&#39;values&#39;]= (1, 2, 3, 4, 5, &quot;Text&quot;)combo.current(1) #set the selected itemcombo.grid(column=0, row=0)combo.get()</code></pre><h1 id="设置多选"><a href="#设置多选" class="headerlink" title="设置多选"></a>设置多选</h1><pre><code class="lang-python">chk = Checkbutton(window, text=&#39;Choose&#39;)chk_state = BooleanVar()chk_state.set(True) #set check statechk = Checkbutton(window, text=&#39;Choose&#39;, var=chk_state)chk.grid(column=0, row=0)</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+            <tag> gui </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>日语学习9-sa</title>
       <link href="2021/05/15/%E6%97%A5%E8%AF%AD%E5%AD%A6%E4%B9%A09-sa/"/>
       <url>2021/05/15/%E6%97%A5%E8%AF%AD%E5%AD%A6%E4%B9%A09-sa/</url>
@@ -332,9 +359,9 @@
       
         <tags>
             
-            <tag> 外语 </tag>
-            
             <tag> 词汇 </tag>
+            
+            <tag> 外语 </tag>
             
         </tags>
       
@@ -359,9 +386,9 @@
       
         <tags>
             
-            <tag> 外语 </tag>
-            
             <tag> 词汇 </tag>
+            
+            <tag> 外语 </tag>
             
         </tags>
       
@@ -585,9 +612,9 @@
       
         <tags>
             
-            <tag> 学习 </tag>
-            
             <tag> 日语 </tag>
+            
+            <tag> 学习 </tag>
             
         </tags>
       
@@ -639,9 +666,9 @@
       
         <tags>
             
-            <tag> 学习 </tag>
-            
             <tag> 日语 </tag>
+            
+            <tag> 学习 </tag>
             
         </tags>
       
