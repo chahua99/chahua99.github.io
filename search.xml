@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>一天一个建站小技巧</title>
+      <link href="2021/05/16/%E4%B8%80%E5%A4%A9%E4%B8%80%E4%B8%AA%E5%BB%BA%E7%AB%99%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+      <url>2021/05/16/%E4%B8%80%E5%A4%A9%E4%B8%80%E4%B8%AA%E5%BB%BA%E7%AB%99%E5%B0%8F%E6%8A%80%E5%B7%A7/</url>
+      
+        <content type="html"><![CDATA[<h1 id="bilibili播放器"><a href="#bilibili播放器" class="headerlink" title="bilibili播放器"></a>bilibili播放器</h1><div class="table-container"><table><thead><tr><th>进阶：</th><th><a href="https://bestzuo.cn/posts/blog-bilbli.html">博客嵌入自适应 B 站视频 (bestzuo.cn)</a></th></tr></thead><tbody><tr><td>基础：</td><td>B站网页版就提供了嵌入链接；</td></tr></tbody></table></div><h2 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h2><pre><code class="lang-html">&lt;div style=&quot;position: relative; padding: 30% 45%;&quot;&gt;&lt;iframe style=&quot;position: absolute; width: 100%; height: 100%; left: 0; top: 0;&quot; src=&quot;//player.bilibili.com/player.html?aid=52516662&amp;bvid=BV1o4411E7xW&amp;cid=91907659&amp;page=1&amp;as_wide=1&amp;high_quality=1&amp;danmaku=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;# 如果aid(原来的av号)没有，删掉即可；如下&lt;div style=&quot;position: relative; padding: 30% 45%;&quot;&gt;&lt;iframe style=&quot;position: absolute; width: 100%; height: 100%; left: 0; top: 0;&quot; src=&quot;//player.bilibili.com/player.html?bvid=BV1U7411v7eq&amp;cid=91907659&amp;page=1&amp;as_wide=1&amp;high_quality=1&amp;danmaku=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;</code></pre><div class="table-container"><table><thead><tr><th>page</th><th>第几个视频, 起始下标为 1 (默认值也是为 1)就是 B 站视频, 选集里的, 第几个视频</th></tr></thead><tbody><tr><td>as_wide</td><td>是否宽屏 【1: 宽屏, 0: 小屏】</td></tr><tr><td>high_quality</td><td>是否高清 【1: 高清(最高1080p) / 0: 最低视频质量(默认)】</td></tr><tr><td>danmaku</td><td>是否开启弹幕 【1: 开启(默认), 0: 关闭】</td></tr></tbody></table></div><h1 id="NetCloud外链播放"><a href="#NetCloud外链播放" class="headerlink" title="NetCloud外链播放"></a>NetCloud外链播放</h1><div class="table-container"><table><thead><tr><th>基础：单曲</th><th>网页版直接生成；</th></tr></thead><tbody><tr><td>歌单</td><td>网页版直接生成；</td></tr><tr><td></td></tr></tbody></table></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 建站 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 工具 </tag>
+            
+            <tag> 播放器 </tag>
+            
+            <tag> 音乐 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>日语学习10-shi</title>
       <link href="2021/05/16/%E6%97%A5%E8%AF%AD%E5%AD%A6%E4%B9%A010-shi/"/>
       <url>2021/05/16/%E6%97%A5%E8%AF%AD%E5%AD%A6%E4%B9%A010-shi/</url>
@@ -145,9 +174,23 @@
       <link href="2021/05/12/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E5%9F%BA%E7%A1%80-%E5%81%87%E8%AE%BE%E6%A3%80%E9%AA%8C/"/>
       <url>2021/05/12/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E5%9F%BA%E7%A1%80-%E5%81%87%E8%AE%BE%E6%A3%80%E9%AA%8C/</url>
       
-        <content type="html"><![CDATA[<pre><code class="lang-html">&lt;div style=&quot;position: relative; padding: 30% 45%;&quot;&gt;&lt;iframe style=&quot;position: absolute; width: 100%; height: 100%; left: 0; top: 0;&quot; src=&quot;//player.bilibili.com/player.html?bvid=BV1U7411v7eq&amp;cid=91907659&amp;page=1&amp;as_wide=1&amp;high_quality=1&amp;danmaku=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;</code></pre><div style="position: relative; padding: 30% 45%;"><iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?bvid=BV1U7411v7eq&cid=91907659&page=1&as_wide=1&high_quality=1&danmaku=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></div>]]></content>
+        <content type="html"><![CDATA[<h1 id="参数估计和假设检验：都是利用样本对总体进行推断"><a href="#参数估计和假设检验：都是利用样本对总体进行推断" class="headerlink" title="参数估计和假设检验：都是利用样本对总体进行推断"></a>参数估计和假设检验：都是利用样本对总体进行推断</h1><h2 id="1-假设问题的提出"><a href="#1-假设问题的提出" class="headerlink" title="1 假设问题的提出"></a>1 假设问题的提出</h2><h3 id="1-1-H-0-：原假设（零假设）。备择假设：与原假设互斥。"><a href="#1-1-H-0-：原假设（零假设）。备择假设：与原假设互斥。" class="headerlink" title="1.1 $H_0$：原假设（零假设）。备择假设：与原假设互斥。"></a>1.1 $H_0$：原假设（零假设）。备择假设：与原假设互斥。</h3><h3 id="1-2-alpha-错误：原假设-H-0-为真，却被拒绝（弃真）——-beta-错误：原假设为伪，却被接受（存伪）。"><a href="#1-2-alpha-错误：原假设-H-0-为真，却被拒绝（弃真）——-beta-错误：原假设为伪，却被接受（存伪）。" class="headerlink" title="1.2 $\alpha$错误：原假设$H_0$为真，却被拒绝（弃真）——$\beta$错误：原假设为伪，却被接受（存伪）。"></a>1.2 $\alpha$错误：原假设$H_0$为真，却被拒绝（弃真）——$\beta$错误：原假设为伪，却被接受（存伪）。</h3><p>​    假设检验中，一般考虑$\alpha$错误。两类错误此消彼长；</p><h3 id="1-3-假设检验流程：确定适当的检验统计量——"><a href="#1-3-假设检验流程：确定适当的检验统计量——" class="headerlink" title="1.3 假设检验流程：确定适当的检验统计量——-"></a>1.3 假设检验流程：确定适当的检验统计量——-</h3><p>​    假定总体$\sigma$已知，且样本量大（n≥30），采用z统计量，</p><blockquote><p>$z=$ $\overline{x}-\mu_0\over{\sigma/\sqrt{n}}$</p><p>小概率一般定为0.05或更小</p></blockquote><p>​    z统计量的问题在于只知道0.05这个通用的风险；用P值代替</p><blockquote><p>$P$值是当原假设为真时，样本观察结果或更极端结果出现的概率；</p></blockquote><h4 id="单侧检验"><a href="#单侧检验" class="headerlink" title="单侧检验"></a>单侧检验</h4><p>左单侧检验 vs 右单侧检验</p><h3 id="总体参数的检验"><a href="#总体参数的检验" class="headerlink" title="总体参数的检验"></a>总体参数的检验</h3><blockquote><p>$z$统计量、$t$统计量、$\chi^2$统计量</p></blockquote><div class="table-container"><table><thead><tr><th>样本量-可以视作正态分布</th><th></th></tr></thead><tbody><tr><td>总体标准差已知：$z=$ $\overline{x}-\mu_0\over{\sigma/\sqrt{n}}$</td><td>总体标准差未知，用样本标准差代替：$z=$ $\overline{x}-\mu_0\over{s/\sqrt{n}}$</td></tr><tr><td></td><td></td></tr><tr><td></td></tr></tbody></table></div>]]></content>
       
       
+      <categories>
+          
+          <category> 统计学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 基础 </tag>
+            
+            <tag> 统计 </tag>
+            
+        </tags>
       
     </entry>
     
