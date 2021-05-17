@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>统计学基础-分类数据分析</title>
+      <link href="2021/05/17/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E5%9F%BA%E7%A1%80-%E5%88%86%E7%B1%BB%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
+      <url>2021/05/17/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E5%9F%BA%E7%A1%80-%E5%88%86%E7%B1%BB%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>日语学习11-shi</title>
       <link href="2021/05/17/%E6%97%A5%E8%AF%AD%E5%AD%A6%E4%B9%A011-shi/"/>
       <url>2021/05/17/%E6%97%A5%E8%AF%AD%E5%AD%A6%E4%B9%A011-shi/</url>
@@ -201,7 +214,7 @@
       <link href="2021/05/12/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E5%9F%BA%E7%A1%80-%E5%81%87%E8%AE%BE%E6%A3%80%E9%AA%8C/"/>
       <url>2021/05/12/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E5%9F%BA%E7%A1%80-%E5%81%87%E8%AE%BE%E6%A3%80%E9%AA%8C/</url>
       
-        <content type="html"><![CDATA[<h1 id="参数估计和假设检验：都是利用样本对总体进行推断"><a href="#参数估计和假设检验：都是利用样本对总体进行推断" class="headerlink" title="参数估计和假设检验：都是利用样本对总体进行推断"></a>参数估计和假设检验：都是利用样本对总体进行推断</h1><h2 id="1-假设问题的提出"><a href="#1-假设问题的提出" class="headerlink" title="1 假设问题的提出"></a>1 假设问题的提出</h2><h3 id="1-1-H-0-：原假设（零假设）。备择假设：与原假设互斥。"><a href="#1-1-H-0-：原假设（零假设）。备择假设：与原假设互斥。" class="headerlink" title="1.1 $H_0$：原假设（零假设）。备择假设：与原假设互斥。"></a>1.1 $H_0$：原假设（零假设）。备择假设：与原假设互斥。</h3><h3 id="1-2-alpha-错误：原假设-H-0-为真，却被拒绝（弃真）——-beta-错误：原假设为伪，却被接受（存伪）。"><a href="#1-2-alpha-错误：原假设-H-0-为真，却被拒绝（弃真）——-beta-错误：原假设为伪，却被接受（存伪）。" class="headerlink" title="1.2 $\alpha$错误：原假设$H_0$为真，却被拒绝（弃真）——$\beta$错误：原假设为伪，却被接受（存伪）。"></a>1.2 $\alpha$错误：原假设$H_0$为真，却被拒绝（弃真）——$\beta$错误：原假设为伪，却被接受（存伪）。</h3><p>​    假设检验中，一般考虑$\alpha$错误。两类错误此消彼长；</p><h3 id="1-3-假设检验流程：确定适当的检验统计量——"><a href="#1-3-假设检验流程：确定适当的检验统计量——" class="headerlink" title="1.3 假设检验流程：确定适当的检验统计量——-"></a>1.3 假设检验流程：确定适当的检验统计量——-</h3><p>​    假定总体$\sigma$已知，且样本量大（n≥30），采用z统计量，</p><blockquote><p>$z=$ $\overline{x}-\mu_0\over{\sigma/\sqrt{n}}$</p><p>小概率一般定为0.05或更小</p></blockquote><p>​    z统计量的问题在于只知道0.05这个通用的风险；用P值代替</p><blockquote><p>$P$值是当原假设为真时，样本观察结果或更极端结果出现的概率；</p></blockquote><h4 id="单侧检验"><a href="#单侧检验" class="headerlink" title="单侧检验"></a>单侧检验</h4><p>左单侧检验 vs 右单侧检验</p><h3 id="总体参数的检验"><a href="#总体参数的检验" class="headerlink" title="总体参数的检验"></a>总体参数的检验</h3><blockquote><p>$z$统计量、$t$统计量、$\chi^2$统计量</p></blockquote><div class="table-container"><table><thead><tr><th>样本量-可以视作正态分布</th><th></th></tr></thead><tbody><tr><td>总体标准差已知：$z=$ $\overline{x}-\mu_0\over{\sigma/\sqrt{n}}$</td><td>总体标准差未知，用样本标准差代替：$z=$$\overline{x}-\mu_0\over{s/\sqrt{n}}$</td></tr><tr><td></td><td></td></tr><tr><td></td></tr></tbody></table></div>]]></content>
+        <content type="html"><![CDATA[<h1 id="参数估计和假设检验：都是利用样本对总体进行推断"><a href="#参数估计和假设检验：都是利用样本对总体进行推断" class="headerlink" title="参数估计和假设检验：都是利用样本对总体进行推断"></a>参数估计和假设检验：都是利用样本对总体进行推断</h1><h2 id="1-假设问题的提出"><a href="#1-假设问题的提出" class="headerlink" title="1 假设问题的提出"></a>1 假设问题的提出</h2><h3 id="1-1-H-0-：原假设（零假设）。备择假设：与原假设互斥。"><a href="#1-1-H-0-：原假设（零假设）。备择假设：与原假设互斥。" class="headerlink" title="1.1 $H_0$：原假设（零假设）。备择假设：与原假设互斥。"></a>1.1 $H_0$：原假设（零假设）。备择假设：与原假设互斥。</h3><h3 id="1-2-alpha-错误：原假设-H-0-为真，却被拒绝（弃真）——-beta-错误：原假设为伪，却被接受（存伪）。"><a href="#1-2-alpha-错误：原假设-H-0-为真，却被拒绝（弃真）——-beta-错误：原假设为伪，却被接受（存伪）。" class="headerlink" title="1.2 $\alpha$错误：原假设$H_0$为真，却被拒绝（弃真）——$\beta$错误：原假设为伪，却被接受（存伪）。"></a>1.2 $\alpha$错误：原假设$H_0$为真，却被拒绝（弃真）——$\beta$错误：原假设为伪，却被接受（存伪）。</h3><p>​    假设检验中，一般考虑$\alpha$错误。两类错误此消彼长；</p><h3 id="1-3-假设检验流程：确定适当的检验统计量——"><a href="#1-3-假设检验流程：确定适当的检验统计量——" class="headerlink" title="1.3 假设检验流程：确定适当的检验统计量——-"></a>1.3 假设检验流程：确定适当的检验统计量——-</h3><p>​    假定总体$\sigma$已知，且样本量大（n≥30），采用z统计量，</p><blockquote><p>$z=$ $\overline{x}-\mu_0\over{\sigma/\sqrt{n}}$</p><p>小概率一般定为0.05或更小</p></blockquote><p>​    z统计量的问题在于只知道0.05这个通用的风险；用P值代替</p><blockquote><p>$P$值是当原假设为真时，样本观察结果或更极端结果出现的概率；</p></blockquote><h4 id="单侧检验"><a href="#单侧检验" class="headerlink" title="单侧检验"></a>单侧检验</h4><p>左单侧检验 vs 右单侧检验</p><h3 id="总体参数的检验"><a href="#总体参数的检验" class="headerlink" title="总体参数的检验"></a>总体参数的检验</h3><blockquote><p>$z$统计量、$t$统计量、$\chi^2$统计量</p></blockquote><div class="table-container"><table><thead><tr><th>样本量较大-且可以视作正态分布</th><th></th></tr></thead><tbody><tr><td>总体标准差已知：$z=$ $\overline{x}-\mu_0\over{\sigma/\sqrt{n}}$</td><td>总体标准差未知，用样本标准差代替：$z=$$\overline{x}-\mu_0\over{s/\sqrt{n}}$</td></tr><tr><td>样本量较小</td><td></td></tr><tr><td>总体标准差已知：$z=$ $\overline{x}-\mu_0\over{\sigma/\sqrt{n}}$</td><td>总体标准差未知，用样本标准差代替，样本统计量服从t分布（推断精度有所下降）：$t=$$\overline{x}-\mu_0\over{s/\sqrt{n}}$[自由度为$n-1$]</td></tr></tbody></table></div><h3 id="总体均值的检验"><a href="#总体均值的检验" class="headerlink" title="总体均值的检验"></a>总体均值的检验</h3><div class="table-container"><table><thead><tr><th>样本量大：</th><th>显著性水平$\alpha$【0.05/0.01】</th></tr></thead><tbody><tr><td>样本量小，$\sigma$已知，正态总体：</td><td>$\overline{x}-\mu_0\over{\sigma/\sqrt{n}}$</td></tr><tr><td>样本量小，$\sigma$未知，正态总体：</td><td>采用t统计量；</td></tr><tr><td></td></tr></tbody></table></div><h3 id="总体方差的检验"><a href="#总体方差的检验" class="headerlink" title="总体方差的检验"></a>总体方差的检验</h3><div class="table-container"><table><thead><tr><th>方差检验使用$\chi^2$统计量；</th><th></th></tr></thead><tbody><tr><td>$s^2=$$\Sigma (x_i-\overline{x})^2\over(n-1)$</td><td>$\chi^2$=$(n-1)s^2\over\sigma^2$.极限情况：正态分布；一般情况：偏态分布。因此使用单侧检验。</td></tr><tr><td></td><td></td></tr><tr><td></td></tr></tbody></table></div><h2 id="单侧检验中检验结果的解释和假设的建立："><a href="#单侧检验中检验结果的解释和假设的建立：" class="headerlink" title="单侧检验中检验结果的解释和假设的建立："></a>单侧检验中检验结果的解释和假设的建立：</h2><blockquote><p>同一组数据，用左侧检验和右侧检验得出的结论不同；</p><p>即要求：假设的选择方向和背景有关；</p><p>一般把原有的、传统的观点或结论放在原假设；</p></blockquote>]]></content>
       
       
       <categories>
