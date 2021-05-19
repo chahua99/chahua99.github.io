@@ -4,13 +4,107 @@
   
     
     <entry>
-      <title>读书笔记-陈振宇</title>
-      <link href="2021/05/18/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E9%99%88%E6%8C%AF%E5%AE%87/"/>
-      <url>2021/05/18/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E9%99%88%E6%8C%AF%E5%AE%87/</url>
+      <title>书籍推荐</title>
+      <link href="2021/05/19/%E4%B9%A6%E7%B1%8D%E6%8E%A8%E8%8D%90/"/>
+      <url>2021/05/19/%E4%B9%A6%E7%B1%8D%E6%8E%A8%E8%8D%90/</url>
       
         <content type="html"><![CDATA[]]></content>
       
       
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>语言学读书笔记-论文</title>
+      <link href="2021/05/19/%E8%AF%AD%E8%A8%80%E5%AD%A6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E8%AE%BA%E6%96%87/"/>
+      <url>2021/05/19/%E8%AF%AD%E8%A8%80%E5%AD%A6%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E8%AE%BA%E6%96%87/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>统计学基础-一元线性回归</title>
+      <link href="2021/05/19/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E5%9F%BA%E7%A1%80-%E4%B8%80%E5%85%83%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92/"/>
+      <url>2021/05/19/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E5%9F%BA%E7%A1%80-%E4%B8%80%E5%85%83%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92/</url>
+      
+        <content type="html"><![CDATA[<h1 id="相关分析"><a href="#相关分析" class="headerlink" title="相关分析"></a>相关分析</h1><blockquote><p>两个变量间是线性关系，都是随机变量；</p><p>相关系数r：</p><p>Pearson线性相关系数(-1~1)：<img src="/2021/05/19/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E5%9F%BA%E7%A1%80-%E4%B8%80%E5%85%83%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92/_posts/统计学基础-一元线性回归/1.jpg" alt="1.jpg"></p></blockquote><h2 id="显著性检验"><a href="#显著性检验" class="headerlink" title="显著性检验"></a>显著性检验</h2><blockquote><p>用t检验，$t$=$|r|$$\sqrt {n-2}\over (1-r^2)$~$t(n-2)$</p></blockquote><h1 id="一元线性回归"><a href="#一元线性回归" class="headerlink" title="一元线性回归"></a>一元线性回归</h1><blockquote><p>$y = \beta_0+\beta_1x+\epsilon$  </p><p>$E(y)=\beta_0+\beta_1x$ 即$\epsilon$的期望为0，它是误差项的随机变量；</p></blockquote><h2 id="参数的最小二乘估计"><a href="#参数的最小二乘估计" class="headerlink" title="参数的最小二乘估计"></a>参数的最小二乘估计</h2><blockquote><p>高斯：最小二乘法。可由求偏导求出，直线必经过($\overline x$,$\overline y$)</p></blockquote><h1 id="回归直线的拟合优度"><a href="#回归直线的拟合优度" class="headerlink" title="回归直线的拟合优度"></a>回归直线的拟合优度</h1><h2 id="判定系数：y的取值波动（变差）：SST-Sigma-y-i-overline-y-2-y-i-为实际观测值"><a href="#判定系数：y的取值波动（变差）：SST-Sigma-y-i-overline-y-2-y-i-为实际观测值" class="headerlink" title="判定系数：y的取值波动（变差）：SST=$\Sigma(y_i-\overline y)^2$ $y_i$为实际观测值"></a>判定系数：y的取值波动（变差）：SST=$\Sigma(y_i-\overline y)^2$ $y_i$为实际观测值</h2><blockquote><p>y-$\overline y$=(y-$y<em>\beta$)+($y</em>\beta-\overline y$)</p><p>SST(总平方和) = SSR(回归平方和)+SSE(残差平方和)</p><p>$R^2$ = $SSR\over SST$ ~(0,1)</p></blockquote><h1 id="显著性检验-1"><a href="#显著性检验-1" class="headerlink" title="显著性检验"></a>显著性检验</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> 统计学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 基础 </tag>
+            
+            <tag> 一元线性回归 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>日语学习14-shi</title>
+      <link href="2021/05/19/%E6%97%A5%E8%AF%AD%E5%AD%A6%E4%B9%A014-shi/"/>
+      <url>2021/05/19/%E6%97%A5%E8%AF%AD%E5%AD%A6%E4%B9%A014-shi/</url>
+      
+        <content type="html"><![CDATA[<div class="table-container"><table><thead><tr><th>自立「じりつ」</th><th>親元を離れて自立する「おやもと」</th></tr></thead><tbody><tr><td>飼料「しりょう」</td><td>資料「しりょう」</td></tr><tr><td>城「しろ」</td><td>自分の城に閉じこもす「とじこもす」</td></tr><tr><td>大阪城「おおさかじょう」</td><td></td></tr><tr><td>進化「しかん」</td><td>日々進化するコンピューターソフト「ひび」</td></tr><tr><td>侵害「しんがい」</td><td>人権を侵害する「じんけん」</td></tr><tr><td>新規「しんき」</td><td>新規採用「さいよう」</td></tr><tr><td>真空「しんくう」</td><td>真空包装「ほうそう」</td></tr><tr><td>シングル「single」</td><td>神経「しんけい」</td></tr><tr><td>神経が太い「ふとい」</td><td>真剣「しんけん」</td></tr><tr><td>真剣勝負「しょうぶ」</td><td></td></tr><tr><td></td><td></td></tr><tr><td>人件費「じんけんひ」</td><td>進行「しんこう」</td></tr><tr><td>工事の進行が予定より遅い「よてい；おそい」</td><td>新婚「しんこん」</td></tr><tr><td>視察「しｈさ」</td><td></td></tr><tr><td>震災「しんさい」</td><td></td></tr><tr><td>紳士「しんし」</td><td>信者「しんじゃ」</td></tr><tr><td>人種「じんしゅ」</td><td>心身「しんしん」</td></tr><tr><td>新人「しんじん」</td><td>新人を教育する「きょういく」</td></tr><tr><td>申請　「しんせい」</td><td>人造「じんぞう」</td></tr><tr><td>親族「しんぞく」</td><td>身体「しんたい」</td></tr><tr><td>人体「じんたい」</td><td>振動「しんどう」</td></tr><tr><td>侵入「しんにゅう」</td><td>不法侵入「ふほう」</td></tr><tr><td>心配事「しんぱいごと」</td><td>審判「しんぱん」</td></tr><tr><td>人文「じんぶん」</td><td>シンボル「symbol」</td></tr><tr><td>人命「じんめい」</td><td>人命に関わる問題「かかわる」</td></tr><tr><td>深夜「しんや」</td><td></td></tr><tr><td>心理学「しんりがく」</td><td>侵略「しんりゃく」</td></tr><tr><td>診療「しんりょう」</td><td>進路「しんろ」</td></tr><tr><td>進路指導「しどう」</td><td>そろそろ進路を決める時期だ「じき」</td></tr><tr><td>新郎新婦の「しんろうしんぷ」</td><td>新郎新婦の幸せを願う「ねがう」</td></tr><tr><td>神話「しんわ」</td><td>神話の世界</td></tr><tr><td>神話が崩れた「くずれた」</td><td></td></tr><tr><td></td><td></td></tr><tr><td>巣「す」</td><td>悪の巣「あく」</td></tr><tr><td>推薦「すいせん」</td><td>熱しに推薦する「ねっしに」</td></tr><tr><td>水準「すいじゅん」</td><td>推測「すいそく」</td></tr><tr><td>垂直「すいちょく」</td><td></td></tr><tr><td>推定「すいてい」</td><td></td></tr><tr><td>水滴「すいてき」</td><td>水滴が落ちろ</td></tr></tbody></table></div><p><a href="https://sm.ms/image/UIqwb8l9nRGc2ZS" target="_blank"><img src="https://i.loli.net/2021/05/19/UIqwb8l9nRGc2ZS.jpg" alt="IMG_0149.jpeg"></a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 外语 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 日语 </tag>
+            
+            <tag> 词汇 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>读书笔记-陈振宇</title>
+      <link href="2021/05/18/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E9%99%88%E6%8C%AF%E5%AE%87/"/>
+      <url>2021/05/18/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E9%99%88%E6%8C%AF%E5%AE%87/</url>
+      
+        <content type="html"><![CDATA[<h1 id><a href="#" class="headerlink" title=" "></a> </h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> 语言学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 读书笔记 </tag>
+            
+            <tag> 语言学 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -48,7 +142,7 @@
       <link href="2021/05/17/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E5%9F%BA%E7%A1%80-%E6%96%B9%E5%B7%AE%E5%88%86%E6%9E%90/"/>
       <url>2021/05/17/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E5%9F%BA%E7%A1%80-%E6%96%B9%E5%B7%AE%E5%88%86%E6%9E%90/</url>
       
-        <content type="html"><![CDATA[<h1 id="形式比较多个总体的均值；实际研究变量间关系；"><a href="#形式比较多个总体的均值；实际研究变量间关系；" class="headerlink" title="形式比较多个总体的均值；实际研究变量间关系；"></a>形式比较多个总体的均值；实际研究变量间关系；</h1><blockquote><p>同假设检验相比，方差分析可以提高效率，也增加了可靠性(同时考虑所有组样品)。</p></blockquote><h1 id="方差分析ANOVA"><a href="#方差分析ANOVA" class="headerlink" title="方差分析ANOVA"></a>方差分析ANOVA</h1><blockquote><p>所要检验对象称为因素；因素的不同表现称为水平/处理。</p></blockquote><h2 id="基本思想"><a href="#基本思想" class="headerlink" title="基本思想"></a>基本思想</h2><blockquote><p>误差来源：</p><p>1 组内误差：抽样的随机性造成的误差；水平内部的</p><p>2 组间误差：抽样本身的随机误差或水平间的系统性差异；不同水平间的</p><p>SST：总平方和</p><p>SSE：组内平方和；残差平方和</p><p>SSA：组间平方和；因素平方和</p><p>如果水平间不存在系统性误差，那么组间误差将仅包含随机误差。</p><p>就可以得到：组间误差与组内误差经过平均后的数值很接近。</p></blockquote><h1 id="方差分析假定"><a href="#方差分析假定" class="headerlink" title="方差分析假定"></a>方差分析假定</h1><blockquote><p>1 每个总体都服从正态分布</p><p>2 各个总体的方差$\sigma^2$必须相同</p><p>3 观测值是独立的；</p></blockquote><h2 id="一般提法："><a href="#一般提法：" class="headerlink" title="一般提法："></a>一般提法：</h2><blockquote><p> $H_0:\mu_1=\mu_2···=\mu_k$</p><p> $H_1:\mu_1,\mu_2···,\mu_k$不全相等</p></blockquote><h1 id="单因素方差分析：只涉及一个分类型变量"><a href="#单因素方差分析：只涉及一个分类型变量" class="headerlink" title="单因素方差分析：只涉及一个分类型变量"></a>单因素方差分析：只涉及一个分类型变量</h1><blockquote><p>1 计算各样本的均值；</p><p>2 计算全部观测值的总均值；即全部观测值的总和除以观测值的总个数</p><p>3 计算各误差平方和。</p><p>​    3.1 总平方和SST。全部观测值$x_{ij}$与总均值的误差平方和;</p><p>​    3.2 组间平方和SSA。各组均值和总均值的误差平方和；</p><p>​    3.3 组内平方和SSE。每个水平内部，各样本数据和组均值的误差平方和；【反映随机误差大小】</p><p>SST = SSA[因子效应] + SSE[残差效应]</p><p>均方：用各平方和除以所对应的自由度。</p><p>SST自由度为n-1;SSA为k-1[k为因素水平个数];SSE为n-k。</p><p>$F={MSA\over MSE}$~$F(k-1,n-k)$  $MSE={SSE\over n-k}$ $MSA$=$SSA\over k-1$</p><p>因素间关系强度的测量：$R^2=$$SSA(组间ss)\over SST(总ss)$</p></blockquote><h1 id="多重比较方法：究竟是哪些均值不相等。"><a href="#多重比较方法：究竟是哪些均值不相等。" class="headerlink" title="多重比较方法：究竟是哪些均值不相等。"></a>多重比较方法：究竟是哪些均值不相等。</h1><blockquote><p>$LSD$=$t_{\alpha/2}$$\sqrt{MSE({1\over n_i}+{1\over n_j})}$ ; 和|$\overline x_i$-$\overline x_j$|比较大小。</p></blockquote><hr><hr><h1 id="双因素方差分析"><a href="#双因素方差分析" class="headerlink" title="双因素方差分析"></a>双因素方差分析</h1><blockquote><p>可分为有交互作用和无交互作用，两类双因素分析；</p></blockquote><h2 id="无交互作用的双因素方差分析"><a href="#无交互作用的双因素方差分析" class="headerlink" title="无交互作用的双因素方差分析"></a>无交互作用的双因素方差分析</h2>]]></content>
+        <content type="html"><![CDATA[<p><img src="/2021/05/17/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E5%9F%BA%E7%A1%80-%E6%96%B9%E5%B7%AE%E5%88%86%E6%9E%90/_posts/统计学基础-方差分析/统计学基础-方差分析.png" alt="统计学基础-方差分析.png"></p>]]></content>
       
       
       <categories>
