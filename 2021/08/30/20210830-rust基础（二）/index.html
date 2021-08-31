@@ -6,21 +6,16 @@
   <meta name="keywords" content=" 计算机 , rust ">
   <meta name="description" content="20210830-rust基础（二） | FangFangFang">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta name="description" content="包和crate           Zlibrary     https:&#x2F;&#x2F;book4you.org&#x2F;">
-<meta property="og:type" content="article">
-<meta property="og:title" content="20210830-rust基础（二）">
-<meta property="og:url" content="https://chahua99.github.io/2021/08/30/20210830-rust%E5%9F%BA%E7%A1%80%EF%BC%88%E4%BA%8C%EF%BC%89/index.html">
+<meta name="description" content="测试使用">
+<meta property="og:type" content="website">
+<meta property="og:title" content="FangFangFang">
+<meta property="og:url" content="https://chahua99.github.io/archives/index.html">
 <meta property="og:site_name" content="FangFangFang">
-<meta property="og:description" content="包和crate           Zlibrary     https:&#x2F;&#x2F;book4you.org&#x2F;">
+<meta property="og:description" content="测试使用">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://i.loli.net/2021/08/30/AXlg2tm5qnwjabI.jpg">
-<meta property="article:published_time" content="2021-08-30T05:29:00.000Z">
-<meta property="article:modified_time" content="2021-08-30T05:59:25.906Z">
 <meta property="article:author" content="Fang Fang">
-<meta property="article:tag" content="计算机">
-<meta property="article:tag" content="rust">
+<meta property="article:tag" content="个人学习">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://i.loli.net/2021/08/30/AXlg2tm5qnwjabI.jpg">
 
 
 <link rel="icon" href="/img/avatar.jpg">
@@ -235,7 +230,7 @@
     </div>
 </div>
 <input type="hidden" id="yelog_site_posts_number" value="2">
-<input type="hidden" id="yelog_site_word_count" value="1.6k">
+<input type="hidden" id="yelog_site_word_count" value="2.2k">
 <div style="display: none">
     <span id="busuanzi_value_site_uv"></span>
     <span id="busuanzi_value_site_pv"></span>
@@ -363,12 +358,12 @@
     </div>
     <div class="article-meta">
         
-            发布时间 : <time class="date" title='最后更新: 2021-08-30 13:59:25'>2021-08-30 13:29</time>
+            发布时间 : <time class="date" title='最后更新: 2021-08-31 23:39:33'>2021-08-30 13:29</time>
         
     </div>
     <div class="article-meta">
         
-        <span>字数:7</span>
+        <span>字数:651</span>
         
         
         <span id="busuanzi_container_page_pv">
@@ -398,7 +393,7 @@
     
     <div class="toc-ref">
     
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8C%85%E5%92%8Ccrate"><span class="toc-text">包和crate</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8C%85%E5%92%8Ccrate"><span class="toc-text">包和crate</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%9D%E5%AF%B9%E8%B7%AF%E5%BE%84%E5%92%8C%E7%9B%B8%E5%AF%B9%E8%B7%AF%E5%BE%84"><span class="toc-text">绝对路径和相对路径</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%B8%B8%E8%A7%81%E9%9B%86%E5%90%88%E2%80%94%E2%80%94%E5%82%A8%E5%AD%98%E5%9C%A8%E5%A0%86%E4%B8%8A"><span class="toc-text">常见集合——储存在堆上</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#vector"><span class="toc-text">vector</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AD%98%E5%82%A8utf-8%E7%BC%96%E7%A0%81%E6%96%87%E6%9C%AC"><span class="toc-text">字符串存储utf-8编码文本</span></a></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -414,8 +409,162 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="包和crate"><a href="#包和crate" class="headerlink" title="包和crate"></a>包和crate</h1><div class="card">
-  <img src="https://i.loli.net/2021/08/30/AXlg2tm5qnwjabI.jpg" alt="Avatar" style="width:50%">
+        <h1 id="包和crate"><a href="#包和crate" class="headerlink" title="包和crate"></a>包和crate</h1><blockquote>
+<p>创建库：cargo new —lib Name</p>
+</blockquote>
+<pre><code class="lang-rust">mod front_of_house &#123;
+    mod hosting &#123;
+        fn add_to_waitlist() &#123;&#125;
+
+        fn seat_at_table() &#123;&#125;
+    &#125;
+
+    mod serving &#123;
+        fn take_order() &#123;&#125;
+
+        fn server_order() &#123;&#125;
+
+        fn take_payment() &#123;&#125;
+    &#125;
+&#125;
+</code></pre>
+<h2 id="绝对路径和相对路径"><a href="#绝对路径和相对路径" class="headerlink" title="绝对路径和相对路径"></a>绝对路径和相对路径</h2><pre><code class="lang-rust">mod front_of_house &#123;
+    mod hosting &#123;
+        fn add_to_waitlist() &#123;&#125;
+    &#125;
+&#125;
+
+pub fn eat_at_restaurant() &#123;
+    // Absolute path，被定义在同一crate中
+    crate::front_of_house::hosting::add_to_waitlist();
+
+    // Relative pathfront_of_house与 eat_at_restaurant 定义在同一层级
+    front_of_house::hosting::add_to_waitlist();
+&#125;
+</code></pre>
+<blockquote>
+<p>pub关键字：</p>
+<p>super关键字：从父模块开始的相对路径；</p>
+<p>公有结构体的字段可以设置部分公有，部分私有；</p>
+<p>use：关键字将名称引入作用域；</p>
+</blockquote>
+<pre><code class="lang-rust">mod front_of_house &#123;
+    pub mod hosting &#123;
+        pub fn add_to_waitlist() &#123;&#125;
+    &#125;
+&#125;
+
+use crate::front_of_house::hosting;
+pub fn eat_at_restaurant() &#123;
+    hosting::add_to_waitlist();
+    hosting::add_to_waitlist();
+    hosting::add_to_waitlist();
+&#125;
+
+//关键字as
+use std::io::Result as IoResult;
+</code></pre>
+<blockquote>
+<p>将模块分隔的方法：有src/main.rs以及src/front_of_house.rs</p>
+<p>Rust 会在与模块同名的文件中查找模块的代码</p>
+</blockquote>
+<pre><code>// src/main.rs，注意使用分号
+mod front_of_house;
+pub use crate::front_of_house::hosting;
+pub fn eat_at_restaurant() &#123;
+    hosting::add_to_waitlist();
+    hosting::add_to_waitlist();
+    hosting::add_to_waitlist();
+&#125;
+
+// src/front_of_house.rs
+pub mod hosting &#123;
+    pub fn add_to_waitlist() &#123;&#125;
+&#125;
+</code></pre><hr>
+<h1 id="常见集合——储存在堆上"><a href="#常见集合——储存在堆上" class="headerlink" title="常见集合——储存在堆上"></a>常见集合——储存在堆上</h1><blockquote>
+<p>vector,string,hash map</p>
+</blockquote>
+<h2 id="vector"><a href="#vector" class="headerlink" title="vector"></a>vector</h2><pre><code class="lang-rust">let v: Vec&lt;i32&gt; = Vec::new();
+
+let v = vec![1, 2, 3];
+
+let mut v = Vec::new();
+v.push(5);
+v.push(6);
+</code></pre>
+<blockquote>
+<p>使用 <code>&amp;</code> 和 <code>[]</code> 返回一个引用；或者使用 <code>get</code> 方法以索引作为参数来返回一个 <code>Option&lt;&amp;T&gt;</code></p>
+</blockquote>
+<pre><code class="lang-rust">// 访问vec中的元素
+let v = vec![1,2,3,4,5];
+
+let third:&amp;i32 = &amp;v[2];
+
+match v.get(2)&#123;
+ Some(third)=&gt;println!(&quot;hhh&quot;),
+ None =&gt; println!(&quot;h&quot;),
+&#125;
+</code></pre>
+<pre><code class="lang-rust">// 遍历vector中的元素
+let v = vec![100, 32, 57];
+for i in &amp;v &#123;
+    println!(&quot;&#123;&#125;&quot;, i);
+&#125;
+
+let mut v = vec![100, 32, 57];
+for i in &amp;mut v &#123;
+    *i += 50;
+&#125;
+</code></pre>
+<blockquote>
+<p>枚举+vector,为了解决vec所有元素都一样的问题</p>
+</blockquote>
+<pre><code>enum Spread &#123;
+    Int(i32),
+    Float(f64),
+&#125;
+
+let row = vec![
+    Spread::Int(3),
+    Spread::Float(3.4),
+]
+</code></pre><hr>
+<h1 id="字符串存储utf-8编码文本"><a href="#字符串存储utf-8编码文本" class="headerlink" title="字符串存储utf-8编码文本"></a>字符串存储utf-8编码文本</h1><blockquote>
+<p>&amp;str:引用</p>
+<p>String:可增长的、可变的、有所有权的</p>
+</blockquote>
+<pre><code class="lang-rust">let data = &quot;initial contents&quot;;
+
+let s =data.to_string();
+
+let s =&quot;initial contents&quot;.to_string();
+
+let s =String::from(&quot;initial contents&quot;);
+
+// push获取引用，不取得所有权
+let mut s = String::from(&quot;foo&quot;);
+s.push_str(&quot;bar&quot;);
+
+// 单独一个字符
+s.push(&quot;l&quot;);
+
+// + 运算符与format！
+let s1 = String::from(&quot;Hello, &quot;);
+let s2 = String::from(&quot;world!&quot;);
+let s3 = s1 + &amp;s2;
+// 注意 s1 被移动了，不能继续使用
+
+// 注意s1的控制权没有了，只剩下s
+let s1 = String::from(&quot;tic&quot;);
+let s2 = String::from(&quot;tac&quot;);
+let s3 = String::from(&quot;toe&quot;);
+let s = s1 + &quot;-&quot; + &amp;s2 + &quot;-&quot; + &amp;s3;
+// 不会获得s1的所有权
+let s = format!(&quot;&#123;&#125;-&#123;&#125;-&#123;&#125;&quot;, s1, s2, s3);
+</code></pre>
+<div class="card">
+  <img src="https://i.loli.net/2021/08/30/AXlg2tm5qnwjabI.jpg" alt="Avatar" style="width:100%">
   <div class="container">
     <b>Zlibrary</b>
     <p>https://book4you.org/</p> 
